@@ -7,5 +7,9 @@ console.log(nameUpperCased);
 var textCharsAfter = text.replace("Velociraptor", nameUpperCased);
 console.log(textCharsAfter);
 
-var partOftext = textCharsAfter.slice(0,72)
+var letter = text.length;
+var partOftext = textCharsAfter.slice(0, letter / 2);
 console.log(partOftext);
+
+textString = text.split(" ")[0];
+console.log(textString);
