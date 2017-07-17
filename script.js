@@ -3,3 +3,11 @@ var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
 var allNames = femaleNames.concat(maleNames);
 
 console.log(allNames);
+
+var newName = 'Marian'
+
+if (allNames.indexOf(newName) === -1) {
+	console.log(true)
+} else {
+	console.log(false)
+}
