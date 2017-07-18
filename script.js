@@ -7,7 +7,8 @@ console.log(allNames);
 var newName = 'Marian'
 
 if (allNames.indexOf(newName) === -1) {
-	console.log(true)
+	var addName = allNames.concat(newName)
+	console.log(addName)
 } else {
 	console.log(false)
 }
