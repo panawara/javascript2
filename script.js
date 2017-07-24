@@ -1,13 +1,12 @@
 function drawTree(n) {
 
-for ( i = 1; i <= n ; i ++ )
+for ( i = 1; i <= n ; i ++ ) {
+	star();
 {
     for ( j = 1 ; j <= i ; j ++ )
     {
-    document.write("*");
-    }
-    document.write("<br>");
+    star(star += '*');
 }
 }
-document.write("<br>");
-drawTree(5)
+}
+console.log(star)};
