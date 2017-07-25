@@ -1,15 +1,7 @@
-function drawTree(n) {
+var list = document.getElementById('list')
 
-  for ( i = 1; i <= n ; i ++ ) {
-    var star = '';
+add.addEventListener('click', function() {});
 
-    for ( j = 1 ; j <= i ; j ++ ) {
-      star = star + '*';
-    }
-    
-    console.log(star);
-  }
-}
+var element = document.createElement('li');
 
-
-drawTree(15);
+list.appendChild(element);
